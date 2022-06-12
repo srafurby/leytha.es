@@ -1,0 +1,10 @@
+				@font-face {
+					font-family: 'din-pro';
+					src: url('/wp-content/uploads/useanyfont/2223Din-Pro.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/2223Din-Pro.woff') format('woff');
+					font-display: auto;
+				}
+
+				.din-pro{font-family: 'din-pro' !important;}
+
+		

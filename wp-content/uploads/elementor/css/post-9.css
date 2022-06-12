@@ -1,0 +1,58 @@
+.elementor-kit-9{--e-global-color-primary:#491A70;--e-global-color-secondary:#9E90E6;--e-global-color-text:#000000;--e-global-color-accent:#FFFFFF;--e-global-typography-primary-font-family:"Din Condensed";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Above the beyond";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Din Pro";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Above the beyond";--e-global-typography-accent-font-weight:500;}.elementor-widget:not(:last-child){margin-bottom:20px;}.elementor-element{--widgets-spacing:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-container{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-container{--container-max-width:767px;}}/* Start custom CSS */header.sticky-header {
+    --header-height: 100px;
+    --opacity: 0.90;
+    --shrink-me: 0.80;
+    --sticky-background-color: #fff;
+    --transition: .3s ease-in-out;
+
+    transition: background-color var(--transition),
+                background-image var(--transition),
+                backdrop-filter var(--transition),
+                opacity var(--transition);
+}
+header.sticky-header.elementor-sticky--effects {
+    background-color: var(--sticky-background-color) !important;
+    background-image: none !important;
+    opacity: var(--opacity) !important;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+header.sticky-header > .elementor-container {
+    transition: min-height var(--transition);
+}
+header.sticky-header.elementor-sticky--effects > .elementor-container {
+    min-height: calc(var(--header-height) * var(--shrink-me))!important;
+    height: calc(var(--header-height) * var(--shrink-me));
+}
+header.sticky-header .elementor-nav-menu .elementor-item {
+    transition: padding var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .elementor-nav-menu .elementor-item {
+    padding-bottom: 10px!important;
+    padding-top: 10px!important;
+}
+header.sticky-header > .elementor-container .logo img {
+    transition: max-width var(--transition);
+}
+header.sticky-header.elementor-sticky--effects .logo img {
+    max-width: calc(100% * var(--shrink-me));
+}
+.tracking-in-expand{-webkit-animation:tracking-in-expand 1.5s linear 1s both;animation:tracking-in-expand 1.5s linear 1s both}
+
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
+
+@media all and (max-width:1024px) {
+    .elementor-kit-9:after {
+        content: '';
+        width: 100vw;
+        height: 100vh;
+        background-position: inherit;
+        background-image: inherit;
+        background-size: inherit;
+        background-attachment: inherit;
+        background-repeat: inherit;
+        position: fixed;
+        top: 0;
+        z-index: -1;
+    }
+}/* End custom CSS */

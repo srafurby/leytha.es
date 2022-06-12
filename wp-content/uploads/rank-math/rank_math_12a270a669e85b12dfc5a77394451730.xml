@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//leytha.com/main-sitemap.xsl"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.google.com/schemas/sitemap-image/1.1 http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+		<loc>https://leytha.com/</loc>
+		<lastmod>2021-12-13T19:58:18+00:00</lastmod>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/05/MG_0474-1024x683.jpg</image:loc>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/05/pexels-andrea-piacquadio-839586-scaled.jpg</image:loc>
+			<image:caption><![CDATA[Jorge Perez]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/05/pexels-andrea-piacquadio-733872-scaled.jpg</image:loc>
+			<image:caption><![CDATA[Andrea Ramos]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://leytha.com/fotografia/</loc>
+		<lastmod>2021-12-13T20:17:46+00:00</lastmod>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/10/MG_0192.jpg</image:loc>
+			<image:caption><![CDATA[_MG_0192]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/10/9.jpg</image:loc>
+			<image:caption><![CDATA[9]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/10/20.jpg</image:loc>
+			<image:caption><![CDATA[20]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/10/6.jpg</image:loc>
+			<image:caption><![CDATA[6]]></image:caption>
+		</image:image>
+		<image:image>
+			<image:loc>https://leytha.com/wp-content/uploads/2021/10/MG_0210.jpg</image:loc>
+			<image:caption><![CDATA[_MG_0210]]></image:caption>
+		</image:image>
+	</url>
+	<url>
+		<loc>https://leytha.com/filmmaking/</loc>
+		<lastmod>2021-12-13T20:10:58+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://leytha.com/contacto/</loc>
+		<lastmod>2021-10-09T18:29:53+00:00</lastmod>
+	</url>
+	<url>
+		<loc>https://leytha.com/sobre-mi/</loc>
+		<lastmod>2021-10-09T18:27:02+00:00</lastmod>
+	</url>
+</urlset>
